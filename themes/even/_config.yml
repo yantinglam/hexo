@@ -1,0 +1,46 @@
+# navbar
+menu:
+  Home: /
+  Archives: /archives/
+  Categories: /categories/
+  Tags: /tags/
+
+# site icon
+favicon: /favicon.ico
+
+# theme styling
+# color: Default | Mint Green | Cobalt Blue | Hot Pink | Dark Violet
+theme:
+  color: Default
+  anchor: "§"
+
+# comments
+comments:
+  post: true
+  about: true
+
+# article contents sidebar
+sidebar: true
+
+# Analytics
+## Baidu Analytics
+baidu_analytics: Your baidu Analytics ID
+## Google Analytics
+google_analytics: Your Google Analytics ID
+
+# Comments
+## Duoshuo
+duoshuo_shortname: 
+## Disqus
+disqus_shortname: 
+
+# Social links
+social:
+  email: linyantingly@163.com
+  stack-overflow:
+  twitter:
+  facebook:
+  github: https://github.com/yantinglam
+  weibo: 
+  zhihu: 
+  rss: /atom.xml
