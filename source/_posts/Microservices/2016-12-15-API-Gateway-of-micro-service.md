@@ -15,7 +15,7 @@ tags:
 
 &emsp;&emsp;管理员需要懂得多方语言，才能读懂图书馆里各方语言的资料，也就是说API Gateway必须要有转换不同通讯协议的机制，以便与微服务系统中各个使用不同语言工具的服务进行通讯连接。
 
-<img src="/images/API Gateway of micro-service/Model of API-Gateway.png" width=500 height=500 />
+<img src="/images/Microservices/API-Gateway-of-micro-service/Model-of-API-Gateway.png" width=500 height=500 />
 
 ### API Gateway的功能
 * 授权机制

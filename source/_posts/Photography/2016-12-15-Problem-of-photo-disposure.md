@@ -32,7 +32,7 @@ tags:
 
 ### 光圈、快门、感光度的国际参数值
 &emsp;&emsp;光圈、快门、感光度的国际参数值都有固定的档数值。
-<img src="/images/Problem of photo disposure/Datas.jpg" width=500 height=200 />
+<img src="/images/Photography/Problem-of-photo-disposure/Datas.jpg" width=500 height=200 />
 
 #### 曝光参数的换算题
 &emsp;&emsp;有一张相片的拍摄参数如下：光圈大小为f8，快门速度为1/30s，感光度为100。
@@ -45,7 +45,7 @@ tags:
 
 &emsp;&emsp;看回题目，光圈大小变为f5.6，就是比原来的f8小了两档，由于光圈参数与实际光圈大小成反比，所以实际光圈是变大了两档，进光量就是变多了，那么要达到同样的曝光效果，快门速度就要变快两档，由于快门参数与实际快门速度成正比，所以快门参数要调大两档，为125。
 
-<img src="/images/Problem of photo disposure/Water example.jpg" width=500 height=200 />
+<img src="/images/Photography/Problem-of-photo-disposure/Water-example.jpg" width=500 height=200 />
 
 &emsp;&emsp;问题二：当感光度变为400，要达到同样的曝光效果，光圈与快门要如何调整？
 

@@ -30,22 +30,22 @@ tags:
 &emsp;&emsp;通过下面这张示意图，我们也能来理解一下单反相机的工作原理。在正常情况下，入射光线会通过反光镜和五棱镜反射到取景器使我们能在取景器看到景象。而在我们按下快门进行拍摄时，相机内的反光镜就会被抬起，反光镜抬起后，入射光线就会直接投射到感光材料上，在感觉材料上进行曝光，形成照片。所以当我们按下快门进行拍摄时，会发现从取景器里看会黑了一会，这是因为此时入射光线投射到感光材料而没有反射到取景器的原因。
 
 &emsp;&emsp;单反的快门是机械快门，所以每一次按快门都会让快门有所损伤，所以这种机械快门是有寿命期限的，一般是15W~20W次，不过一般这个次数足够我们尽情拍摄了。
-<img src="/images/Classification of cameras/Single reflective.jpg" width=500 height=500 />
+<img src="/images/Photography/Classification-of-cameras/Single-reflective.jpg" width=500 height=500 />
 
 ### 双镜头相机
 &emsp;&emsp;双镜头言下之意就是有两个镜头，目前市面上还有得卖，不过相对比较少了。下面这张图就是双镜头相机的样子。
-<img src="/images/Classification of cameras/Double lens.jpg" width=200 height=200 />
+<img src="/images/Photography/Classification-of-cameras/Double-lens.jpg" width=200 height=200 />
 
 &emsp;&emsp;双镜头相机的两个镜头是分工合作，有属于自己的功能的。上面的镜头是用来取景和构图的，下面的镜头是用来曝光作真正的拍摄的。
 
 &emsp;&emsp;上面的这台双镜头相机也叫双反相机，就是双镜头反光相机。它和单反一样，里面也有一块反光镜，但是没有五棱镜，那么会造成什么区别呢？看看下面这张双反相机的光路示意图。上面镜头的入射光线通过反光板反射到上面的取景器，所以使用双反相机是要从上往下俯视取景器进行拍摄的。更有意思的是，从取景器看到的景象是左右反着的，这就涉及光学原理了。
 
-<img src="/images/Classification of cameras/Double reflective.jpg" width=300 height=300 />
+<img src="/images/Photography/Classification-of-cameras/Double-reflective.jpg" width=300 height=300 />
 
 ### 旁轴相机
 &emsp;&emsp;旁轴相机就是以前很常见的那种取景器在角落的相机，这种相机的取景器盖上镜头后也能看得见。
-<img src="/images/Classification of cameras/Side-by-side camera.jpg" width=200 height=200 />
+<img src="/images/Photography/Classification-of-cameras/Side-by-side-camera.jpg" width=200 height=200 />
 
 ### 大画幅相机
 &emsp;&emsp;这种相机现在在影视作品中看得比较多
-<img src="/images/Classification of cameras/Big frame.jpg" width=200 height=200 />
+<img src="/images/Photography/Classification-of-cameras/Big-frame.jpg" width=200 height=200 />

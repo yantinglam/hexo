@@ -21,7 +21,7 @@ tags:
 &emsp;&emsp;客户端需要请求一个服务时，会到服务注册服务中查询，使用均衡负载算法从多个服务实例中选择一个，然后发出请求。
 
 &emsp;&emsp;服务实例注册信息一般是通过心跳机制来定期刷新。
-<img src="/images/Service discovery/Client discovery.png" width=500 height=500 />
+<img src="/images/Microservices/Service-discovery/Client-discovery.png" width=500 height=500 />
 
 ##### 客户端发现模式的优点
 * 相对比较直接，除了服务注册表，没有其他改变因素
@@ -35,7 +35,7 @@ tags:
 &emsp;&emsp;在服务端发现模式中，客户端通过负载均衡器向某个服务提出请求，负载均衡器向服务注册表发出请求，将每个请求转发往可用的服务实例。
 
 &emsp;&emsp;像客户端发现一样，服务实例在注册表中注册与注销。
-<img src="/images/Service discovery/Server discovery.png" width=600 height=600 />
+<img src="/images/Microservices/Service-discovery/Server-discovery.png" width=600 height=600 />
 
 ##### 服务端发现模式的优点
 * 客户端无须关注发现的细节，只需要简单的向负载均衡器发送请求

@@ -18,7 +18,7 @@ tags:
 * glue code（胶水代码，也称为容灾层）
 <p class="li-explanation">&emsp;&emsp;将微服务和单体应用集成起来，保护微服务全新域模型免受传统单体应用域模型的污染；而且还负责数据整合，提供两种模型间的翻译功能<br/>&emsp;&emsp;glue code可以是在单体应用处，可以是在微服务处，也可以两都兼而有之。</p>
 
-<img src="/images/Single-mode app to micro-service/Add new service to single-mode app.png" width=400 height=400 />
+<img src="/images/Microservices/Single-mode-app-to-micro-service/Add-new-service-to-single-mode-app.png" width=400 height=400 />
 
 #### 停止挖掘的优点：
 * 阻止单体应用变得更加的无法管理
@@ -26,7 +26,7 @@ tags:
 
 ### 前后端分离
 &emsp;&emsp;前后端分离是将表现层与业务数据访问层分离，通过若干方面组成的粗粒度APIs将单体业务分割成两个更小的应用。
-<img src="/images/Single-mode app to micro-service/Separating front-end and back-end.png" width=600 height=600 />
+<img src="/images/Microservices/Single-mode-app-to-micro-service/Separating-front-end-and-back-end.png" width=600 height=600 />
 #### 前后端分离的好处：
 * 使得应用分成两部分进行开发、部署和扩展
 * 允许表现层开发者在用户界面上快速选择，进行A/B测试

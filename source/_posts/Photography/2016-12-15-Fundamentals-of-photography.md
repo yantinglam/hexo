@@ -11,7 +11,7 @@ tags:
 #### 全画幅与非全画幅
 &emsp;&emsp;全画幅就是以前胶卷的大小，为36*24mm。除了这个大小的，其他画幅都是非全画幅。现在有很多种画幅尺寸，如下图。
 <!-- more -->
-<img src="/images/Fundamentals of photography/Size of frame.jpg" width=500 height=300 />
+<img src="/images/Photography/Fundamentals-of-photography/Size-of-frame.jpg" width=500 height=300 />
 
 ### 焦距
 &emsp;&emsp;焦距是成像中心到焦平面的距离。

@@ -14,7 +14,7 @@ tags:
 * 一个参数定义同一进程组内有多少服务实例运行
 <!-- more -->
 
-<img src="/images/Deployment strategy of micro-service/Multi-instance in a host.png" width=300 height=300 />
+<img src="/images/Microservices/Deployment-strategy-of-micro-service/Multi-instance-in-a-host.png" width=300 height=300 />
 
 #### 单机多服务实例模式的优点
 * 资源利用有效性，多服务实例共享服务器和操作系统，如果进程组运行多个服务实例效率会更高
@@ -29,7 +29,7 @@ tags:
 ### 单主机单服务实例模式
 #### 单虚拟机单实例
 &emsp;&emsp;单虚拟机单实例模式一般是将服务打包成虚拟机映像，每个服务实例是一个使用此映像启动的VM。
-<img src="/images/Deployment strategy of micro-service/Single instance in a VM.png" width=500 height=500 />
+<img src="/images/Microservices/Deployment-strategy-of-micro-service/Single-instance-in-a-VM.png" width=500 height=500 />
 ##### 单虚拟机单实例的优点：
 * 每个服务实例都是完全独立运行的，都有各自独立的CPU与内存而不会被其他服务占用
 * 用户可以使用成熟云架构
@@ -46,7 +46,7 @@ tags:
 &emsp;&emsp;一般在一台物理机或虚拟机上运行多个容器，一个容器包含若干个运行在沙箱中的进程，可以限制容器的内存和CPU资源。
 
 &emsp;&emsp;部署的时候，将服务打包成容器映像，一个容器映像是一个运行包含服务所需库和应用的文件系统。
-<img src="/images/Deployment strategy of micro-service/Single instance in a container.png" width=500 height=500 />
+<img src="/images/Microservices/Deployment-strategy-of-micro-service/Single-instance-in-a-container.png" width=500 height=500 />
 ##### 单容器单实例的优点
 * 服务实例之间完全独立，可以很容易监控每个容器消耗的资源
 * 像虚拟机一样，使用隔离技术部署服务
