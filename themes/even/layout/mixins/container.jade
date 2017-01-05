@@ -7,8 +7,9 @@ mixin home()
           h2.post-title
             a.post-link(href=url_for(item.path))
               != item.title
-          span.post-time
-            != full_date(item.date, 'll')
+          p.article-info
+            span.post-time
+              != "发表于 " + full_date(item.date, 'YYYY-MM-DD')
           - var excerpt = item.description || item.excerpt;
           if excerpt
             div.post-content
@@ -25,8 +26,9 @@ mixin post()
   article.post
     h1.post-title
       != page.title
-    span.post-time
-      != full_date(page.date, 'll')
+    p.article-info
+      span.post-time
+        != "发表于 " + full_date(page.date, 'YYYY-MM-DD')
     if theme.sidebar && toc(page.content)
       .post-sidebar#sidebar
         h3.heading
