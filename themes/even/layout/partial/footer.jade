@@ -6,6 +6,15 @@ if theme.social && (is_home() || is_post() || page.layout == 'about')
         - var href = name != "email" ? url_for(link) : ('mailto:' + link)
         a.iconfont(class="icon-#{name}" href=href title=name)
 
+//- friendly links
+if(theme.links)
+  div.friendly-links
+    h6.friendly-links-text
+      != "友情链接"
+    for link, name in theme.links
+      a.friendly-links-url(href=link)
+        != name
+
 //- Copyright
 if page.layout != 'tags' && page.layout != 'categories'
   .copyright
@@ -29,6 +38,7 @@ if page.layout != 'tags' && page.layout != 'categories'
         i.iconfont.icon-heart
       span.author
         != config.author
+
     p.calculate
       script(async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js")
       span#busuanzi_container_site_pv
