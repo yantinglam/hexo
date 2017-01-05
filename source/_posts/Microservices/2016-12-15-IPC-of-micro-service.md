@@ -4,7 +4,7 @@ date: 2016-12-15 15:07:08
 categories:
 - 技术
 tags:
-- 微服务架构
+- 微服务
 ---
 &emsp;&emsp;IPC即进程间通信（Inter-Porcess Communication）。微服务架构中有两类IPC机制可选：异步消息机制和同步请求/响应机制。<!-- more -->
 

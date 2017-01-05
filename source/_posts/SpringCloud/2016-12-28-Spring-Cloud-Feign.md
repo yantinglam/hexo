@@ -1,5 +1,5 @@
 ---
-title: 使用Feign实现客户端消费者
+title: Spring Cloud - Feign
 date: 2016-12-28 17:28:33
 categories:
 - 技术
