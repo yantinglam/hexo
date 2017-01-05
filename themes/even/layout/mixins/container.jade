@@ -7,9 +7,13 @@ mixin home()
           h2.post-title
             a.post-link(href=url_for(item.path))
               != item.title
-          p.article-info
+          p.post-meta
             span.post-time
               != "发表于 " + full_date(item.date, 'YYYY-MM-DD')
+            span.leancloud-visitors(id=url_for(item.path), data-flag-title=item.title)
+              span.leancloud-visitors-text
+                != "阅读次数 "
+              span.leancloud-visitors-count
           - var excerpt = item.description || item.excerpt;
           if excerpt
             div.post-content
@@ -26,9 +30,13 @@ mixin post()
   article.post
     h1.post-title
       != page.title
-    p.article-info
+    p.post-meta
       span.post-time
         != "发表于 " + full_date(page.date, 'YYYY-MM-DD')
+      span.leancloud-visitors(id=url_for(page.path), data-flag-title=page.title)
+        span.leancloud-visitors-text
+          != "阅读次数 "
+        span.leancloud-visitors-count
     if theme.sidebar && toc(page.content)
       .post-sidebar#sidebar
         h3.heading

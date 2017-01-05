@@ -5,7 +5,7 @@
 # Site
 title: Yanting Lam
 subtitle:
-description: Recording my life
+description: 一个喜欢文艺的前端工程师
 author: Yanting Lam
 language: zh-cn
 timezone:
@@ -41,7 +41,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: true
+  auto_detect: false
   tab_replace:
 
 # Category & Tag
